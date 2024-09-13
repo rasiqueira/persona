@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Configuração da chave de API de forma segura
-openai.api_key = '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'
+openai.api_key = api_key
 
 # Dicionário de estados e suas sub-regiões
 subregioes_por_estado = {
